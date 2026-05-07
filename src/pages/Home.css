@@ -1,0 +1,35 @@
+.home-header {
+  text-align: center;
+  padding: 2rem 0 2.5rem;
+}
+
+.home-header h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.home-subtitle {
+  color: var(--color-text-secondary);
+  margin-top: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.home-empty {
+  text-align: center;
+  padding: 6rem 0;
+  color: var(--color-text-secondary);
+  font-size: 1.1rem;
+}
+
+.home-empty-hint {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
